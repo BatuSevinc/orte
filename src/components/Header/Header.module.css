@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.headerCartButton {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+.headerCartButton div {
+    border: 1px solid green; 
+    background-color: green;
+    color: white;
+    border-radius: 100%;
+    font-size: 16px;
+    padding: 2px 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 16px;
+}
+
+.headerCart {
+    background-color: #707070;
+    box-shadow: 0 25px 50px -12px #a1a5a9;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    max-width: 500px;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    transition-duration: 300ms;
+}
+
+.isOpenTrue {
+    right: 0;
+}
+
+.isOpenFalse {
+    right: -100%;
+}

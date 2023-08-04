@@ -1,0 +1,45 @@
+.checkOutItemContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.checkOutItemContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.checkOutItemImage {
+    width: 100px;
+}
+
+.checkOutItemPrice span {
+    font-size: 12px;
+    color: grey;
+}
+
+.checkOutItemUnitPrice {
+    font-size: 12px;
+    color: grey;
+}
+
+.checkOutItemButton svg {
+    cursor: pointer;
+}
+
+.checkOutItemButton svg:hover {
+    color: red;
+}
+
+.checkOutEmptyBack {
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: underline;
+    color: blue;
+}

@@ -1,0 +1,52 @@
+.cartItemContainer {
+    display: flex;
+    align-items: center;
+    color: gainsboro;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.cartItemImage {
+    width: 50px;
+}
+
+.cartItemButton {
+    cursor: pointer;
+
+}
+
+.cartItemButton:hover {
+    color: red;
+}
+
+.itemQty{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+
+.cartItemUnitAmount {
+    font-size: 13px;
+    color: rgb(47, 47, 47);
+    margin: 5px;
+}
+
+.cartItemPrice {
+    color: #1d434e;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.cartItemContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.cartItemButtonContainer {
+    margin-left: 10px;
+}
