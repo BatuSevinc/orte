@@ -1,8 +1,8 @@
-import React, { useContext } from 'react';
-import { Cart } from '../index';
-import { CartContext } from '../../context/CartContext';
-import { AiOutlineShoppingCart } from 'react-icons/ai';
-import styles from './Header.module.css';
+import React, { useContext } from "react";
+import { Cart } from "../index";
+import { CartContext } from "../../context/CartContext";
+import { AiOutlineShoppingCart } from "react-icons/ai";
+import styles from "./Header.module.css";
 
 const Header = () => {
   const { isOpen, setIsOpen, productAmount } = useContext(CartContext);
@@ -11,7 +11,7 @@ const Header = () => {
     <div className={styles.header}>
       <div
         onClick={() => setIsOpen(!isOpen)}
-        className={styles.headerCartButton} 
+        className={styles.headerCartButton}
       >
         <AiOutlineShoppingCart size={30} />
         {productAmount > 0 && <div>{productAmount}</div>}

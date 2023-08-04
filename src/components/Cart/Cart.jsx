@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import { CartContext } from "../../context/CartContext";
-import {CartItem} from "../index";
+import { CartItem } from "../index";
 import { MdClose } from "react-icons/md";
 import { Link } from "react-router-dom";
-import styles from './Cart.module.css';
+import styles from "./Cart.module.css";
 
 const Cart = () => {
   const { setIsOpen, cart, total, clearCart } = useContext(CartContext);

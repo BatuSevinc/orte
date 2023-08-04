@@ -1,15 +1,18 @@
 import React, { useContext } from "react";
 import { CartContext } from "../../context/CartContext";
 import { MdClose } from "react-icons/md";
-import styles from './CheckOutItem.module.css'
-
+import styles from "./CheckOutItem.module.css";
 
 const CheckOutItem = ({ item }) => {
   const { removeFromCart } = useContext(CartContext);
   return (
     <div className={styles.checkOutItemContainer}>
       <div>
-        <img src={item.image} alt={item.name} className={styles.checkOutItemImage} />
+        <img
+          src={item.image}
+          alt={item.name}
+          className={styles.checkOutItemImage}
+        />
       </div>
       <div>
         <h2>{item.name}</h2>

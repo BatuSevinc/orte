@@ -6,4 +6,4 @@ import Products from "./Products/Products";
 import ProductItem from "./ProductsItem/ProductItem";
 import Qty from "./Qty/Qty";
 
-export { Cart, CartItem, CheckOutItem, Header, Products, ProductItem,Qty };
+export { Cart, CartItem, CheckOutItem, Header, Products, ProductItem, Qty };
